@@ -1,0 +1,14 @@
+@charset "UTF-8";
+body{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    background-image: url('imagens/espaco.jpg');
+}
+
+p{
+    background-image: url('imagens/astronauta.png');
+    position: absolute;
+    left: 21.5%;
+    top: 30.5%;
+}
