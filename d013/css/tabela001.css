@@ -2,11 +2,14 @@
 
 table{
     border-collapse: collapse;
+    font-weight: bolder;
+    background-color: lightgray;
+    text-align: center;
 }
 
 td{
-    text-align: center;
-    width: 50px;
     border: 1px solid black;
+    width: 100px;
     padding: 10px;
+
 }
