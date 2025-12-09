@@ -42,7 +42,7 @@ section#telefone{
 
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 52%;
     transform: translate(-50%, -50%);
     
     height: 627px;
@@ -67,7 +67,8 @@ iframe{
 }
 
 section#telefone ul li a img{
-    width: 20px;
-    height: 2.....0px;
+    width: 40px;
+    height: 40px;
     border-radius: 100%;
+    margin-bottom: 5px;
 }
