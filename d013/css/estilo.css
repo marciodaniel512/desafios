@@ -25,12 +25,13 @@ main{
 }
 
 main > section > ul{
+    display: inline;
     position: relative;
     top: 10px;
     left: 315px;
 }
 
-li > a{
+ul, li, a{
     display: inline;
 }
 
@@ -61,7 +62,7 @@ iframe{
 
     display: block;
     margin: auto;
-    width: 263px;
+    width: 267px;
     height: 469px;
 }
 
