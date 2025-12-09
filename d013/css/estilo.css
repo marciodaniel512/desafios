@@ -16,7 +16,6 @@ body{
     background-image: url('../imagens/fundo-madeira.jpg');
     background-position: top center;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 main{
@@ -24,10 +23,20 @@ main{
     height: 100vh;
 }
 
+main > section > ul{
+    position: relative;
+    top: -400px;
+    left: 370px;
+}
+
+li > a{
+    display: inline;
+}
+
 section#telefone{
+    /*background-color: blue; - usado somente para ajudar na centralização da imagem*/
     background-image: url('../imagens/frame-iphone.png');
     background-repeat: no-repeat;
-    /*background-color: blue; - usado somente para ajudar na centralização da imagem*/
 
     position: absolute;
     top: 50%;
@@ -36,4 +45,26 @@ section#telefone{
     
     height: 627px;
     width: 310px;
+}
+
+/*Carregando o fundo via CSS*/
+iframe{
+    background-image: url('../imagens/tela-home.jpg');
+    background-size: contain;
+    position: absolute;
+    
+    top: 50.5%;
+    left: 50.2%;
+    transform: translate(-50%, -50%);
+
+    display: block;
+    margin: auto;
+    width: 263px;
+    height: 469px;
+}
+
+section#telefone ul li a img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
 }
